@@ -8,7 +8,7 @@ import {
 } from 'lucide-react';
 import './styles.css';
 
-const API = 'http://127.0.0.1:8000/api';
+const API = 'https://stardust-autonomous-habitat.onrender.com/api';
 const INITIAL = {
   telemetry:{oxygen_pct:20.82,co2_pct:.41,pressure_kpa:101.2,temperature_c:21.7,battery_pct:84,solar_kw:72,power_load_kw:49,airflow_pct:96,scrubber_eff_pct:97,coolant_pressure_kpa:4.8,pump_current_a:8.2,water_pct:93,humidity_pct:44},
   state:{crew:6,elapsed_min:0,lab_online:true,greenhouse_online:true,rover_charging:true,backup_pump:false,backup_scrubber:false,module_c_isolated:false,habitat_compressed:false},
